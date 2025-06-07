@@ -1,0 +1,43 @@
+{
+  "metadata": {
+    "category": { "id": "mixed_bag", "name": "Mixed Topics" },
+    "subject": { "id": "mixed_subjects", "name": "Various Subjects" },
+    "chapter": { "id": "mixed_chapters", "name": "Various Chapters" },
+    "topic": { "id": "mixed_model_test_1", "name": "Model Test - 1" }
+  },
+  "questions": [
+    {
+      "question": "নিচের কোনটি টলেন বিকারকের সাথে বিক্রিয়া করে সিলভার দর্পণ তৈরি করে?",
+      "options": [
+        {"text": "অ্যাসিটোন (Propanone)"},
+        {"text": "ইথান্যাল (Ethanal)"},
+        {"text": "ইথানল (Ethanol)"},
+        {"text": "ডাইমিথাইল ইথার"}
+      ],
+      "correctAnswer": 1,
+      "explanation": "শুধুমাত্র অ্যালডিহাইডসমূহ টলেন বিকারকের সাথে বিক্রিয়া করে। ইথান্যাল (\\(CH_3CHO\\)) একটি অ্যালডিহাইড।"
+    },
+    {
+      "question": "যদি \\(\\vec{A} = 2\\hat{i} + 3\\hat{j}\\) এবং \\(\\vec{B} = -3\\hat{i} + 2\\hat{j}\\) হয়, তবে \\(\\vec{A} \\cdot \\vec{B}\\) এর মান কত?",
+      "options": [
+        {"text": "0"},
+        {"text": "12"},
+        {"text": "-1"},
+        {"text": "5"}
+      ],
+      "correctAnswer": 0,
+      "explanation": "ডট গুণফল \\(\\vec{A} \\cdot \\vec{B} = A_x B_x + A_y B_y = (2)(-3) + (3)(2) = -6 + 6 = 0\\)।"
+    },
+    {
+      "question": "যদি \\(A = \\begin{bmatrix} 2 & 1 \\\\ 5 & 3 \\end{bmatrix}\\) হয়, তবে \\(A^{-1}\\) (A এর বিপরীত ম্যাট্রিক্স) কোনটি?",
+      "options": [
+        {"text": "\\(\\begin{bmatrix} 3 & -1 \\\\ -5 & 2 \\end{bmatrix}\\)"},
+        {"text": "\\(\\begin{bmatrix} 2 & -1 \\\\ -5 & 3 \\end{bmatrix}\\)"},
+        {"text": "\\(\\begin{bmatrix} 3 & 5 \\\\ 1 & 2 \\end{bmatrix}\\)"},
+        {"text": "\\(\\begin{bmatrix} -3 & 1 \\\\ 5 & -2 \\end{bmatrix}\\)"}
+      ],
+      "correctAnswer": 0,
+      "explanation": "একটি 2x2 ম্যাট্রিক্সের বিপরীত ম্যাট্রিক্স হলো \\(\\frac{1}{ad-bc} \\begin{bmatrix} d & -b \\\\ -c & a \\end{bmatrix}\\)। এখানে, নির্ণায়কের মান \\((2)(3) - (1)(5) = 1\\)। সুতরাং, \\(A^{-1} = \\begin{bmatrix} 3 & -1 \\\\ -5 & 2 \\end{bmatrix}\\)।"
+    }
+  ]
+}

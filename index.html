@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question Bank</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js" async></script>
+</head>
+<body>
+    <div class="main-container">
+        <div class="controls-frame">
+            <div class="filter-bar">
+                <select id="category-select" class="filter-select" multiple title="Select Category"></select>
+                <select id="subject-select" class="filter-select" multiple title="Select Subject"></select>
+                <select id="chapter-select" class="filter-select" multiple title="Select Chapter"></select>
+                <select id="topic-select" class="filter-select" multiple title="Select Topic"></select>
+            </div>
+            <div class="mode-toggle-container">
+                <label for="quiz-mode-toggle" class="toggle-label">Quiz Mode</label>
+                <label class="switch">
+                    <input type="checkbox" id="quiz-mode-toggle">
+                    <span class="slider round"></span>
+                </label>
+            </div>
+        </div>
+
+        <div id="question-display-area" class="question-area">
+            </div>
+
+        <div id="loading-overlay" class="loading-overlay hidden">
+            <div class="loading-box">
+                <p id="loading-text">Loading...</p>
+                <div class="progress-bar-container">
+                    <div id="progress-bar" class="progress-bar"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="config.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
